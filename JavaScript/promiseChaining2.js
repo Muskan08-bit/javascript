@@ -62,3 +62,4 @@ function proceedToPayment(orderId) {
 function validateCart(cart) {
     return true;
 }
+

@@ -25,3 +25,27 @@ createOrder(cart).then(function(orderDetails) {
     })
 })
 //always returns a promise from a promise in promise chaining and can also use the arrow function
+
+// createOrder(cart)
+// .then(function (orderId) {
+//     console.log(orderId)
+//     return orderId
+// })
+// .catch(function (error) {
+//     console.log(error)
+// })
+// .then(function (paymentInfo) {
+//     return proceedToPayment(orderId)
+// })
+// .catch(function (error) {
+//     console.log(error)
+// })
+// .then(function (paymentInfo) {
+//     return showOrdersummary(paymentInfo)
+// })
+// .catch(function (error) {
+//     console.log(error)
+// })
+// .then(function (orderDetails) {
+//     return updatewalletinfo(orderDetails)
+// })
